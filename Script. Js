@@ -1,0 +1,17 @@
+let completed = 0;
+let total = 6;
+
+function completeActivity(btn){
+
+if(btn.classList.contains("completed"))
+return;
+
+btn.classList.add("completed");
+btn.innerText = "Completed";
+
+completed++;
+
+document.getElementById("progress").innerText =
+completed + " out of " + total + " activities completed";
+
+}
