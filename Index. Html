@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Activity Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Student Activity Tracker</h1>
+<p>Track your daily learning activities</p>
+</header>
+
+<div class="container">
+
+<h2>Activity List</h2>
+
+<ul id="activityList">
+
+<li>
+<span>HTML Basics</span>
+<button onclick="completeActivity(this)">Pending</button>
+</li>
+
+<li>
+<span>CSS Styling Practice</span>
+<button onclick="completeActivity(this)">Pending</button>
+</li>
+
+<li>
+<span>JavaScript Introduction</span>
+<button onclick="completeActivity(this)">Pending</button>
+</li>
+
+<li>
+<span>Responsive Web Design</span>
+<button onclick="completeActivity(this)">Pending</button>
+</li>
+
+<li>
+<span>Mini Project Work</span>
+<button onclick="completeActivity(this)">Pending</button>
+</li>
+
+<li>
+<span>Project Submission</span>
+<button onclick="completeActivity(this)">Pending</button>
+</li>
+
+</ul>
+
+<h3 id="progress">0 out of 6 activities completed</h3>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
